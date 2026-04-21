@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════════
+   TAILWIND v4 THEME — Register brand colors as utilities
+   This is what makes bg-primary, text-accent etc. work.
+   ═══════════════════════════════════════════════════════ */
+
+@theme {
+  /* Blues — Trust, Authority, Medical Precision */
+  --color-primary: #006a92;
+  --color-primary-container: #008fc7;
+  --color-secondary: #64bddf;
+  --color-secondary-light: #a8d8ea;
+  --color-primary-fixed: #d4e9f7;
+
+  /* Warm Accents — Energy, Urgency, Welcome */
+  --color-tertiary: #f17923;
+  --color-accent: #fcb700;
+
+  /* Surfaces & Text */
+  --color-on-surface: #0f172a;
+  --color-on-surface-variant: #475569;
+  --color-surface: #ffffff;
+  --color-surface-container-low: #f8fafc;
+  --color-surface-container: #f1f5f9;
+  --color-surface-bright: #ffffff;
+  --color-secondary-container: #e0f2fe;
+  --color-error: #dc2626;
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
+
+  /* Typography */
+  --font-headline: var(--font-manrope), system-ui, sans-serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+
+  /* Radii */
+  --radius-full: 1.5rem;
+  --radius-xl: 1rem;
+  --radius-lg: 0.75rem;
+  --radius-default: 0.5rem;
+}
+
+/* ═══════════════════════════════════════════════════════
+   GLOBAL BASE STYLES
+   ═══════════════════════════════════════════════════════ */
+
+body {
+  background: #ffffff;
+  color: #0f172a;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(0, 106, 146, 0.15);
+  color: #006a92;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ═══════════════════════════════════════════════════════
+   UTILITY CLASSES
+   ═══════════════════════════════════════════════════════ */
+
+@layer utilities {
+  .hero-gradient {
+    background: linear-gradient(
+      135deg,
+      rgba(0, 106, 146, 0.03) 0%,
+      rgba(100, 189, 223, 0.06) 50%,
+      rgba(252, 183, 0, 0.03) 100%
+    );
+  }
+
+  .cta-gradient {
+    background: linear-gradient(135deg, #006a92 0%, #008fc7 100%);
+  }
+
+  .warm-gradient {
+    background: linear-gradient(135deg, #f17923 0%, #fcb700 100%);
+  }
+
+  .brand-gradient {
+    background: linear-gradient(135deg, #006a92 0%, #008fc7 40%, #64bddf 70%, #fcb700 100%);
+  }
+
+  .section-divider {
+    background: linear-gradient(90deg, transparent 0%, #64bddf 20%, #008fc7 50%, #64bddf 80%, transparent 100%);
+    height: 2px;
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 106, 146, 0.08);
+  }
+
+  .shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+  .shimmer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 25%, rgba(255, 255, 255, 0.15) 50%, transparent 75%);
+    animation: shimmer 3s ease-in-out infinite;
+  }
+
+  .accent-underline {
+    position: relative;
+    display: inline-block;
+  }
+  .accent-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 48px;
+    height: 3px;
+    background: linear-gradient(90deg, #fcb700, #f17923);
+    border-radius: 999px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════
+   ANIMATIONS
+   ═══════════════════════════════════════════════════════ */
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 1; }
+  100% { transform: scale(2); opacity: 0; }
+}
+
+@keyframes gentle-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
