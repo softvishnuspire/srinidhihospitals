@@ -1,9 +1,11 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { Phone, MapPin, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import logo from "../app/logo.png";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -54,18 +56,13 @@ export const Header = () => {
       >
         <div className="container mx-auto px-6 md:px-8 py-3 flex justify-between items-center">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group cursor-pointer">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-primary-container flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow">
-              <span className="text-white font-black text-lg font-headline">K</span>
-            </div>
-            <div>
-              <span className="text-xl font-black text-primary tracking-tight font-headline block leading-tight">
-                Karthikeya
-              </span>
-              <span className="text-[10px] text-on-surface-variant font-medium tracking-[0.15em] uppercase">
-                Hospitals
-              </span>
-            </div>
+          <Link href="/" className="flex items-center gap-3 cursor-pointer">
+            <Image 
+              src={logo} 
+              alt="Karthikeya Hospitals Logo" 
+              className="h-10 w-auto object-contain" 
+              priority
+            />
           </Link>
 
           {/* Desktop nav */}

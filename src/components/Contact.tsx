@@ -7,8 +7,8 @@ import Image from "next/image";
 const contactInfo = [
   {
     icon: MapPin,
-    title: "Our Location",
-    lines: ["Main Road, Near Railway Station,", "Pithapuram, Andhra Pradesh - 533450"],
+    title: "Our Address",
+    lines: ["College Road, Opp: More Market,", "Amalapuram, East Godavari, AP - 533201"],
     color: "accent",
     bg: "bg-accent/10",
     hoverBg: "group-hover:bg-accent",
@@ -16,8 +16,8 @@ const contactInfo = [
   },
   {
     icon: Phone,
-    title: "Phone Number",
-    lines: ["+91 884 234 5678", "+91 999 888 7776"],
+    title: "Call Us",
+    lines: ["+91 83414-38887", "Emergency: 08869-251678"],
     color: "primary-container",
     bg: "bg-primary-container/10",
     hoverBg: "group-hover:bg-primary-container",
@@ -26,7 +26,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Address",
-    lines: ["info@karthikeyahospitals.com", "emergency@karthikeyahospitals.com"],
+    lines: ["info@srinidhihospitals.com", "emergency@srinidhihospitals.com"],
     color: "tertiary",
     bg: "bg-tertiary/10",
     hoverBg: "group-hover:bg-tertiary",
@@ -34,8 +34,8 @@ const contactInfo = [
   },
   {
     icon: Clock,
-    title: "Working Hours",
-    lines: ["OPD: 9:00 AM – 9:00 PM", "Emergency: 24/7 Available"],
+    title: "OPD Hours",
+    lines: ["Mon-Sat: 9 AM - 8 PM", "Sunday: 9 AM - 2 PM", "ER: 24/7 Available"],
     color: "secondary",
     bg: "bg-secondary/10",
     hoverBg: "group-hover:bg-secondary",
@@ -95,19 +95,17 @@ export const Contact = () => {
 
             {/* Map */}
             <div className="rounded-2xl overflow-hidden h-64 shadow-lg border border-gray-100 relative group">
-              <Image
-                alt="Karthikeya Hospitals map location"
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKVnAGdYulM-rViDlVaI8su5sjY9QSPYVMt0YqAaKhlMu8Ve-z-xZbI8ndkccEhETZhneQa0VB4mxcLE_o1U8BMv9CoocECHY8LjLRO3ipLnDbjWhtPPMsJS5cWlu1p3gIpl7GDosoHnCTuFdFLJs39JIa-kxdxDVcsnI2uUJi_OPJ6HDgqWETyVfoKQ4aWgOyX40SrGmbl5zBdEnAtlKF3ynWyyZLkcF9c2dB0GoUjUctqUlW6NhEwRrRUY_uIRgcCkHLpsz3jFz-"
-                fill
+              <iframe
+                title="Srinidhi Hospitals Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3824.238128456108!2d82.00051101435422!3d16.573863279879127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsDM0JzI1LjkiTiA4MsKwMDAnMTEuMSJF!5e0!3m2!1sen!2sin!4v1713690000000!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="grayscale hover:grayscale-0 transition-all duration-700"
               />
-              <div className="absolute inset-0 bg-primary/5 group-hover:bg-transparent transition-colors" />
-              {/* Pin marker */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                <div className="w-8 h-8 bg-tertiary rounded-full flex items-center justify-center shadow-lg shadow-tertiary/40 animate-bounce">
-                  <MapPin size={16} className="text-white" />
-                </div>
-              </div>
             </div>
           </motion.div>
 

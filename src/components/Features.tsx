@@ -53,7 +53,7 @@ export const Features = () => {
             Our Strengths
           </span>
           <h2 className="text-4xl md:text-5xl font-headline font-extrabold text-primary tracking-tight">
-            Why Choose Karthikeya
+            Why Choose Srinidhi
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-accent to-tertiary rounded-full mx-auto mt-4" />
         </motion.div>

@@ -15,7 +15,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Karthikeya Hospitals | Modern Multi-Specialty Care in Pithapuram",
+  title: "Srinidhi Hospitals | Modern Multi-Specialty Care in Pithapuram",
   description:
     "Compassionate doctors, advanced facilities, and 24/7 Emergency services under one roof. Dedicated to restoring your health with precision.",
   keywords: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "multi-specialty",
     "emergency care",
     "andhra pradesh",
-    "karthikeya hospitals",
+    "srinidhi hospitals",
   ],
 };
 

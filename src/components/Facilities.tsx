@@ -7,26 +7,22 @@ const facilities = [
   {
     title: "Modular Operating Theatres",
     subtitle: "Sterile, precision-grade surgical environments",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAKrgqNM8umzXvUMIeWyfRgkodSe6z3Wf3efdLc00UskERdzSLzigdzVduVzfoUeMJosSEc8ImKnPbx6f_GiVPVgRRH1h-vJvQ5H9XM9UFufrwvy3GxUhfqdD19xFNj8vGzzuNOvOOvGYTsD6szVycGnlLx8MH8lkwHpB7BkbG08DgJWZd2TfEYro71iNk4qGNS-zAMmw9W67PRNlF-b2f2-zHTtBh8X7gs_PVndi0KMewZTnOrVzysz-FeHXoRvQ1-htTeyr3z078h",
+    image: "/images/modular-operating-theatres.jpeg",
   },
   {
     title: "ICU & Critical Care",
     subtitle: "Round-the-clock intensive monitoring",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAvNiNnpyxAsmjfs87DLWNhxG3em31z8YGSpt0McPqzF5l2KQBHySL9TAYc--Esf6NMcz4micNTQNNGlK54QR3FNuxj_Zrh9p7lo8eanmLg80UesQ55D10r0rbRXkqJ6vxF_pFjJoPNUpNLN17J9u90FYtXSaEUNqsjyfxGtC-s6wRulX_gYn4Ss0r47ybPJeaTdQ0PwyiGj8Ers8rxwfGvRRKmt_PZTSwwY0ktAoDjHBsl0ky2sOIheYLY_miunfMeGVXKT6je2Hrv",
+    image: "/images/icu-and-critical-care.jpeg",
   },
   {
     title: "Digital X-ray",
     subtitle: "High-resolution diagnostic imaging",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDj8VWHDo46TkfBoLlaFTUKan3zJqeY9PjKGyz5P2ti2yjl5XCQ-xLjtQubzjWYFJAErKORkbQK-r-lV6hNtNTz2UoncNzdDiuCIFlY-yNzwlmVxH-dyilMmhFxw2ysuARPXI-ikuyqRrlRc9ChD8i7t_ZUB0Qpa8KfRALhAsUVBQfGuMegpl5-3EJ3Euy5boa_wSWQAyNT1DJ9DqrnR4iuDAA7cHmcYKRf6LBfzHgsaznIjpZ4Ux7GQXTnqEO1UWgkARrxkNw5Wdb4",
+    image: "/images/digital-xray.jpeg",
   },
   {
     title: "Pathology Lab",
     subtitle: "Comprehensive in-house testing",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuA0Ew0rZp-1m0gFtSpoYWcpdZEMwtqF5juvZuFcSmhdq5ruUZm0wI2mo6In76YK2rjhCd92A7UxQtmrfYOOygqQndu_iSFLzLHG-YRXQh4i-2cQEkXO0HMIp_UzJa8YYp9SdZWfAdUo5paIkW3phO6Fi46fP2Cx4cMAMWkxF_AljsE4u7JvL5Bl5gpGMY6rxt9GNWiYZ8g2A7CdGki9FasN1S7oYf-yWsqGsQ-_JT34SVCRYopaa6J3_FwPwtpAuVMFuojcQtS8xCTY",
+    image: "/images/pathology-lab.jpeg",
   },
 ];
 

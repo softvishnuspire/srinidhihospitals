@@ -19,7 +19,7 @@ export const About = () => {
             Who We Are
           </span>
           <h2 className="text-4xl md:text-5xl font-headline font-extrabold text-primary tracking-tight">
-            About Karthikeya Hospitals
+            About Srinidhi Hospitals
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-accent to-tertiary rounded-full mx-auto mt-4" />
         </motion.div>
@@ -33,7 +33,7 @@ export const About = () => {
             className="relative rounded-2xl overflow-hidden shadow-xl shadow-primary/8 h-[480px] group"
           >
             <Image
-              alt="Karthikeya Hospital Facade"
+              alt="Srinidhi Hospital Facade"
               className="object-cover transition-transform duration-700 group-hover:scale-105"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuCeqreSlJEJ4Dj3cSHkacLY9n8b3GYrJ9q1mjdrKIQkRh0TnQNGYQgA90s8HAtrYzuM_Q1fsQwE1f_KF2htiOqvp6q6ey1fWQ12MUbZr1HjjP0PTxC4Syhs9vp9JrLE097fp9kKLtu4F74TRMPSEe_bze4h3b-hTG8KzvJk8PGk8AS3RbuNk9SomaL95YLcRnkUjUI-Ptmo_a9zspZUcWVmtcYMh9fbf3BBC_GY-IPtK7Wye6s-DiivonG0dY3-MEfMbFcreIjmpxf0"
               fill
@@ -52,7 +52,7 @@ export const About = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <p className="text-on-surface-variant leading-relaxed font-body mb-8">
-              Located in the heart of Pithapuram, Karthikeya Hospitals has been a cornerstone of quality healthcare for
+              Located in the heart of Pithapuram, Srinidhi Hospitals has been a cornerstone of quality healthcare for
               over a decade. We combine medical expertise with compassionate service to deliver world-class treatment to
               our community.
             </p>
