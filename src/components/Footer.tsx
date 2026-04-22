@@ -12,12 +12,12 @@ export const Footer = () => {
             <Link href="/" className="inline-block mb-6">
               <Image
                 src={logo}
-                alt="Karthikeya Hospitals Logo"
+                alt="Srinidhi Hospitals Logo"
                 className="h-12 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all"
               />
             </Link>
             <p className="font-body text-on-surface-variant max-w-sm mb-8 leading-relaxed">
-              Restoring health with precision and care. Pithapuram&apos;s most trusted multi-specialty healthcare destination since 2010.
+              Restoring health with precision and care. Amalapuram&apos;s most trusted multi-specialty healthcare destination since 2010.
             </p>
             <div className="flex gap-4">
               <Link href="#" aria-label="Facebook" className="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all">

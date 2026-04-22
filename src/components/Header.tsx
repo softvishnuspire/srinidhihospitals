@@ -35,11 +35,11 @@ export const Header = () => {
         <div className="flex items-center gap-6">
           <span className="flex items-center gap-1.5">
             <Phone size={12} />
-            +91 884 234 5678
+            +91 83414 38887
           </span>
           <span className="flex items-center gap-1.5">
             <MapPin size={12} />
-            Pithapuram, Andhra Pradesh
+            Amalapuram, Andhra Pradesh
           </span>
         </div>
         <span className="text-accent font-semibold tracking-wide">24/7 Emergency Services Available</span>
@@ -59,7 +59,7 @@ export const Header = () => {
           <Link href="/" className="flex items-center gap-3 cursor-pointer">
             <Image 
               src={logo} 
-              alt="Karthikeya Hospitals Logo" 
+              alt="Srinidhi Hospitals Logo" 
               className="h-10 w-auto object-contain" 
               priority
             />
@@ -81,7 +81,7 @@ export const Header = () => {
           {/* CTA buttons */}
           <div className="flex items-center gap-3">
             <Link
-              href="tel:+918842345678"
+              href="tel:+918341438887"
               className="hidden sm:flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary-container transition-colors cursor-pointer"
             >
               <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center">

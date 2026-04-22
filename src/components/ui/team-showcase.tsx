@@ -20,50 +20,58 @@ export interface TeamMember {
 const DEFAULT_MEMBERS: TeamMember[] = [
   {
     id: "1",
-    name: "Dr. Mogali Kasi Viswanatham",
-    role: "MEDICAL DIRECTOR",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDLLJakA-GdqJl7abCCNPdbwDt4MEo_7P2axHa1LBsBPZTGzLh48dhalusrws-lw1m4jFWcPhhpmovS8ZQMbWBj1I6TUK6kn0bM0zoZ1GnYhPGOzm8v6gplsu7bC2XVYSf9mdbrse-K51tA2tTO7d0EUO-7Wbw0u9Jfuifun9RnGxYRcVGh2_4ayrYY4pnjjnOMrgiDZsjMtVlruLzrYrf2AMXNCBQG26dWJy4whz1JTn1vJNk_9kvinc1JKnO4gufYQw58ax35feTJ",
+    name: "Dr. Sama Srikanth",
+    role: "PULMONOLOGIST",
+    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=face",
     social: { linkedin: "#" },
   },
   {
     id: "2",
-    name: "Dr. Karri Divya",
-    role: "CONSULTANT GYNECOLOGIST",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCI8SmzPbeGOeEC-QqxGSrlOAkaxF5w9irnterWhHPr21mVSLq7obf5UPQwLOFNQzJVLsLzb1te6HtxSo32i59VrRkgLo0saPl-RSb2vwjutVeeiBT34y5wQHRjd8hNfbHnZH2sXvv6jq0472D37gMWunIaCmHDcY0cqXjH7ZyqNzIzRoDbPmvG-7WOhngFqrqOw_rqfqgVP757iLyMCsqEEQd0uKlI9XuOsIrg1TTGQcfG58pPjThU2tMwOkAVJdDr96qGPvgyZjMJ",
+    name: "Dr. B. Rakesh",
+    role: "GENERAL AND LAPAROSCOPIC SURGEON",
+    image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=400&fit=crop&crop=face",
     social: { linkedin: "#" },
   },
   {
     id: "3",
-    name: "Dr. Kommuri Govindu Babu",
-    role: "HEART SPECIALIST",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBS7Synp8GwydMbPCA6ZQyXGwM-rzY4u1A3ONWtl7J2nLLQCFqxSqv8XIZBjf4eyGMOD2Myf3hZQeBQF8iucBX9LuNtKkofg8zj8NJ9RgnunXzpQO8UaeAcCNqoDUINS2E7NSBOigqAebXy1hxTVtxpVnVLgknJgVUF6PFOPI4LXZNtlzEXiNXY0t3sEbJMOt-lFmuMTAS4KHyjnEgv1uUyNCjN6IZxdEm2a8qCLbxkcjedK4bcUtm6xFWEjymLkXk0szBVOg5c1ER8",
+    name: "Dr. U. Deepthi",
+    role: "GYNAECOLOGIST AND INFERTILITY SPECIALIST",
+    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face",
     social: { linkedin: "#" },
   },
   {
     id: "4",
-    name: "Dr. Srinivas Rao",
-    role: "ORTHOPEDIC SURGEON",
-    image:
-      "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=face",
+    name: "Dr. B. Pallavi",
+    role: "PAEDIATRICIAN",
+    image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&h=400&fit=crop&crop=face",
     social: { linkedin: "#" },
   },
   {
     id: "5",
-    name: "Dr. Lakshmi Prasanna",
-    role: "PEDIATRICIAN",
-    image:
-      "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face",
+    name: "Dr. Sasank Akurati",
+    role: "NEURO SURGEON",
+    image: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400&h=400&fit=crop&crop=face",
     social: { linkedin: "#" },
   },
   {
     id: "6",
-    name: "Dr. Venkata Ramana",
-    role: "GENERAL PHYSICIAN",
-    image:
-      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=400&fit=crop&crop=face",
+    name: "Dr. P. Anasuya",
+    role: "GENERAL MEDICINE",
+    image: "https://images.unsplash.com/photo-1527613426441-4da17471b66d?w=400&h=400&fit=crop&crop=face",
+    social: { linkedin: "#" },
+  },
+  {
+    id: "7",
+    name: "Dr. B. Vinay",
+    role: "GASTROENTEROLOGIST",
+    image: "https://images.unsplash.com/photo-1622902046580-2b47f47f0871?w=400&h=400&fit=crop&crop=face",
+    social: { linkedin: "#" },
+  },
+  {
+    id: "8",
+    name: "Dr. K.V.N. Gowtham Varma",
+    role: "ORTHOPAEDICIAN",
+    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?secondary&w=400&h=400&fit=crop&crop=face",
     social: { linkedin: "#" },
   },
 ];

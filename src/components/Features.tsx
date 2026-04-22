@@ -33,7 +33,7 @@ const features = [
   {
     icon: Globe,
     title: "Community Focus",
-    description: "Deeply rooted in Pithapuram, serving our local neighbors with global standards of care.",
+    description: "Deeply rooted in Amalapuram, serving our local neighbors with global standards of care.",
     accent: "primary-container",
   },
 ];
@@ -123,7 +123,7 @@ export const Features = () => {
             {
               icon: Globe,
               title: "Community Focus",
-              desc: "Deeply rooted in Pithapuram, serving our local neighbors with global standards.",
+              desc: "Deeply rooted in Amalapuram, serving our local neighbors with global standards.",
               borderHover: "hover:border-primary-container/40",
               iconBg: "bg-primary-container/12",
               iconHoverBg: "group-hover:bg-primary-container/20",

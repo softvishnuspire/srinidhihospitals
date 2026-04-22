@@ -15,13 +15,13 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Srinidhi Hospitals | Modern Multi-Specialty Care in Pithapuram",
+  title: "Srinidhi Hospitals | Modern Multi-Specialty Care in Amalapuram",
   description:
     "Compassionate doctors, advanced facilities, and 24/7 Emergency services under one roof. Dedicated to restoring your health with precision.",
   keywords: [
     "hospital",
     "healthcare",
-    "pithapuram",
+    "amalapuram",
     "multi-specialty",
     "emergency care",
     "andhra pradesh",

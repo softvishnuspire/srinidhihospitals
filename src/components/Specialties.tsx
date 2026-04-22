@@ -28,131 +28,131 @@ import {
 const services: Service[] = [
   {
     number: "001",
-    title: "Emergency & Trauma (24×7)",
+    title: "Outpatient Services (OPD)",
     description:
-      "Round-the-clock emergency care with rapid response teams, advanced life support, and trauma stabilization facilities.",
-    icon: Zap,
-    gradient: "from-red-100 to-orange-100 dark:from-red-900/50 dark:to-orange-800/50",
-  },
-  {
-    number: "002",
-    title: "General Medicine",
-    description:
-      "Comprehensive diagnostic and treatment services for a wide range of acute and chronic medical conditions.",
+      "Expert consultation across multiple specialties with minimal waiting time and patient-friendly scheduling.",
     icon: Stethoscope,
     gradient: "from-teal-100 to-cyan-100 dark:from-teal-900/50 dark:to-cyan-800/50",
   },
   {
-    number: "003",
-    title: "Orthopedics",
+    number: "002",
+    title: "Inpatient Services (IPD)",
     description:
-      "Expert care for bone, joint, and musculoskeletal conditions including fractures, sports injuries, and joint replacements.",
-    icon: Bone,
-    gradient: "from-emerald-100 to-green-100 dark:from-emerald-900/50 dark:to-green-800/50",
+      "Well-equipped rooms and wards with continuous monitoring, ensuring comfort, safety, and personalized care.",
+    icon: ShieldPlus,
+    gradient: "from-slate-100 to-gray-200 dark:from-slate-900/50 dark:to-gray-800/50",
+  },
+  {
+    number: "003",
+    title: "24/7 Emergency & Critical Care",
+    description:
+      "Round-the-clock emergency services with trained staff and advanced equipment for all critical conditions.",
+    icon: Zap,
+    gradient: "from-red-100 to-orange-100 dark:from-red-900/50 dark:to-orange-800/50",
   },
   {
     number: "004",
-    title: "Cardiology",
+    title: "General Medicine",
     description:
-      "Advanced cardiac diagnostics, treatment, and rehabilitation for all heart-related conditions.",
-    icon: HeartPulse,
-    gradient: "from-rose-100 to-pink-100 dark:from-rose-900/50 dark:to-pink-800/50",
-  },
-  {
-    number: "005",
-    title: "ENT (Ear, Nose & Throat)",
-    description:
-      "Specialized treatment for ear, nose, throat, and related head & neck disorders with modern endoscopic techniques.",
-    icon: Ear,
-    gradient: "from-orange-100 to-amber-100 dark:from-orange-900/50 dark:to-amber-800/50",
-  },
-  {
-    number: "006",
-    title: "Gastroenterology",
-    description:
-      "Diagnosis and treatment of digestive system disorders including endoscopy, colonoscopy, and liver disease management.",
+      "Diagnosis and treatment of acute and chronic illnesses with a focus on preventive healthcare.",
     icon: Activity,
     gradient: "from-lime-100 to-green-100 dark:from-lime-900/50 dark:to-green-800/50",
   },
   {
-    number: "007",
-    title: "Dermatology",
+    number: "005",
+    title: "General Surgery",
     description:
-      "Complete skin care solutions from medical dermatology to cosmetic treatments for all skin types and conditions.",
-    icon: Sparkles,
-    gradient: "from-fuchsia-100 to-pink-100 dark:from-fuchsia-900/50 dark:to-pink-800/50",
+      "Advanced surgical care with modern techniques ensuring safe procedures and faster recovery.",
+    icon: HeartPulse,
+    gradient: "from-rose-100 to-pink-100 dark:from-rose-900/50 dark:to-pink-800/50",
   },
   {
-    number: "008",
-    title: "Neurology",
+    number: "006",
+    title: "Orthopedic Care",
     description:
-      "Expert care for brain and nervous system disorders including stroke, epilepsy, and neurodegenerative diseases.",
+      "Treatment for bone, joint, and musculoskeletal conditions including fractures and injuries.",
+    icon: Bone,
+    gradient: "from-emerald-100 to-green-100 dark:from-emerald-900/50 dark:to-green-800/50",
+  },
+  {
+    number: "007",
+    title: "Neurosurgery",
+    description:
+      "Specialized surgical treatment for disorders of the nervous system, brain, and spine.",
     icon: Brain,
     gradient: "from-violet-100 to-purple-100 dark:from-violet-900/50 dark:to-purple-800/50",
   },
   {
-    number: "009",
-    title: "Nephrology",
+    number: "008",
+    title: "Gastroenterology",
     description:
-      "Specialized kidney care including dialysis services, kidney disease management, and transplant support.",
-    icon: Droplets,
-    gradient: "from-sky-100 to-blue-100 dark:from-sky-900/50 dark:to-blue-800/50",
+      "Advanced care for digestive system disorders with modern diagnostic and treatment methods.",
+    icon: Sparkles,
+    gradient: "from-fuchsia-100 to-pink-100 dark:from-fuchsia-900/50 dark:to-pink-800/50",
+  },
+  {
+    number: "009",
+    title: "Pulmonology",
+    description:
+      "Expert diagnosis and treatment for lung-related conditions and respiratory disorders.",
+    icon: Activity,
+    gradient: "from-orange-100 to-amber-100 dark:from-orange-900/50 dark:to-amber-800/50",
   },
   {
     number: "010",
-    title: "Obstetrics & Gynecology",
+    title: "Obstetrics & Gynaecology",
     description:
-      "Complete women's health services from prenatal care and delivery to gynecological surgeries and fertility support.",
+      "Comprehensive care for women’s health, from maternity services to infertility treatments.",
     icon: Baby,
     gradient: "from-pink-100 to-rose-100 dark:from-pink-900/50 dark:to-rose-800/50",
   },
   {
     number: "011",
-    title: "Pediatrics",
+    title: "Paediatrics & Neonatology",
     description:
-      "Dedicated child healthcare with neonatal care, vaccinations, growth monitoring, and pediatric emergency services.",
+      "Specialized healthcare for infants, children, and adolescents with dedicated neonatal care.",
     icon: Syringe,
     gradient: "from-cyan-100 to-teal-100 dark:from-cyan-900/50 dark:to-teal-800/50",
   },
   {
     number: "012",
-    title: "Physiotherapy & Rehabilitation",
+    title: "Dialysis Unit",
     description:
-      "Comprehensive rehabilitation programs for post-surgery recovery, sports injuries, and chronic pain management.",
-    icon: Dumbbell,
-    gradient: "from-amber-100 to-yellow-100 dark:from-amber-900/50 dark:to-yellow-800/50",
+      "State-of-the-art dialysis services for patients with chronic kidney diseases.",
+    icon: Droplets,
+    gradient: "from-sky-100 to-blue-100 dark:from-sky-900/50 dark:to-blue-800/50",
   },
   {
     number: "013",
-    title: "Anesthesiology & Critical Care",
+    title: "Diagnostic Services",
     description:
-      "Expert anesthesia services and intensive care unit management for critically ill patients with 24/7 monitoring.",
-    icon: ShieldPlus,
-    gradient: "from-slate-100 to-gray-200 dark:from-slate-900/50 dark:to-gray-800/50",
-  },
-  {
-    number: "014",
-    title: "Radiology & Imaging",
-    description:
-      "State-of-the-art diagnostic imaging including X-ray, ultrasound, CT scan, MRI, and interventional radiology.",
+      "Advanced Lab, Digital X-Ray, Ultrasound, and CT Scan for accurate and timely diagnosis.",
     icon: ScanLine,
     gradient: "from-indigo-100 to-blue-100 dark:from-indigo-900/50 dark:to-blue-800/50",
   },
   {
-    number: "015",
-    title: "Lab / Diagnostics",
+    number: "014",
+    title: "ENT",
     description:
-      "NABL-grade pathology and diagnostic laboratory with rapid turnaround for accurate blood work and testing.",
-    icon: FlaskConical,
-    gradient: "from-teal-100 to-emerald-100 dark:from-teal-900/50 dark:to-emerald-800/50",
+      "Specialized treatment for ear, nose, and throat conditions with modern equipment.",
+    icon: Ear,
+    gradient: "from-amber-100 to-yellow-100 dark:from-amber-900/50 dark:to-yellow-800/50",
+  },
+  {
+    number: "015",
+    title: "Pharmacy & Ambulance",
+    description:
+      "24/7 in-house pharmacy and reliable ambulance support for emergency transport.",
+    icon: Pill,
+    gradient: "from-green-100 to-lime-100 dark:from-green-900/50 dark:to-lime-800/50",
   },
   {
     number: "016",
-    title: "Pharmacy (In-house)",
+    title: "Health Check-ups",
     description:
-      "24/7 in-house pharmacy stocked with genuine medicines, surgical supplies, and patient-friendly billing.",
-    icon: Pill,
-    gradient: "from-green-100 to-lime-100 dark:from-green-900/50 dark:to-lime-800/50",
+      "Preventive health packages designed for early detection and overall wellness.",
+    icon: FlaskConical,
+    gradient: "from-teal-100 to-emerald-100 dark:from-teal-900/50 dark:to-emerald-800/50",
   },
 ];
 

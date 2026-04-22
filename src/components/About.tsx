@@ -52,9 +52,7 @@ export const About = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <p className="text-on-surface-variant leading-relaxed font-body mb-8">
-              Located in the heart of Pithapuram, Srinidhi Hospitals has been a cornerstone of quality healthcare for
-              over a decade. We combine medical expertise with compassionate service to deliver world-class treatment to
-              our community.
+              Srinidhi Hospitals, Amalapuram is a trusted name in healthcare, committed to delivering high-quality, compassionate, and patient-centered medical services. Established with a vision to provide advanced healthcare facilities, we combine modern medical technology with experienced clinical expertise. At Srinidhi Hospitals, we believe that healthcare is not just about treatment—it is about care, comfort, and trust. Our team works round the clock to ensure the best possible outcomes for every patient.
             </p>
 
             <div className="space-y-6">
@@ -66,8 +64,7 @@ export const About = () => {
                   Our Mission
                 </h4>
                 <p className="text-on-surface-variant leading-relaxed font-body text-sm pl-[52px]">
-                  Quality care that&apos;s accessible, ethical, and delivered with dignity to every patient who walks
-                  through our doors. We believe healthcare is a fundamental right.
+                  To provide accessible, affordable, and quality healthcare services with compassion and integrity, ensuring the well-being of every patient we serve.
                 </p>
               </div>
 
@@ -79,8 +76,7 @@ export const About = () => {
                   Our Vision
                 </h4>
                 <p className="text-on-surface-variant leading-relaxed font-body text-sm pl-[52px]">
-                  To be the most trusted healthcare destination in Pithapuram, recognized for clinical excellence and
-                  compassionate service that heals both body and soul.
+                  To be a leading healthcare institution in the region, recognized for excellence in medical care, patient satisfaction, and continuous innovation.
                 </p>
               </div>
             </div>

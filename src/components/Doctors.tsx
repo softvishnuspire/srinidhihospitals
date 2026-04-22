@@ -8,50 +8,58 @@ import type { TeamMember } from "@/components/ui/team-showcase";
 const doctors: TeamMember[] = [
   {
     id: "1",
-    name: "Dr. Mogali Kasi Viswanatham",
-    role: "MEDICAL DIRECTOR · MBBS, MS",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDLLJakA-GdqJl7abCCNPdbwDt4MEo_7P2axHa1LBsBPZTGzLh48dhalusrws-lw1m4jFWcPhhpmovS8ZQMbWBj1I6TUK6kn0bM0zoZ1GnYhPGOzm8v6gplsu7bC2XVYSf9mdbrse-K51tA2tTO7d0EUO-7Wbw0u9Jfuifun9RnGxYRcVGh2_4ayrYY4pnjjnOMrgiDZsjMtVlruLzrYrf2AMXNCBQG26dWJy4whz1JTn1vJNk_9kvinc1JKnO4gufYQw58ax35feTJ",
+    name: "Dr. N.S.V.D.S. Kameswara Sarma",
+    role: "MEDICAL DIRECTOR · MD, MBBS",
+    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=face",
     social: { linkedin: "#" },
   },
   {
     id: "2",
-    name: "Dr. Karri Divya",
-    role: "CONSULTANT GYNECOLOGIST · MBBS, MD",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCI8SmzPbeGOeEC-QqxGSrlOAkaxF5w9irnterWhHPr21mVSLq7obf5UPQwLOFNQzJVLsLzb1te6HtxSo32i59VrRkgLo0saPl-RSb2vwjutVeeiBT34y5wQHRjd8hNfbHnZH2sXvv6jq0472D37gMWunIaCmHDcY0cqXjH7ZyqNzIzRoDbPmvG-7WOhngFqrqOw_rqfqgVP757iLyMCsqEEQd0uKlI9XuOsIrg1TTGQcfG58pPjThU2tMwOkAVJdDr96qGPvgyZjMJ",
+    name: "Dr. Neeraja Sarma",
+    role: "CHIEF GYNECOLOGIST · MD (Obs/Gyn), MBBS",
+    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face",
     social: { linkedin: "#" },
   },
   {
     id: "3",
-    name: "Dr. Kommuri Govindu Babu",
-    role: "HEART SPECIALIST · MBBS, MD (Cardiology)",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBS7Synp8GwydMbPCA6ZQyXGwM-rzY4u1A3ONWtl7J2nLLQCFqxSqv8XIZBjf4eyGMOD2Myf3hZQeBQF8iucBX9LuNtKkofg8zj8NJ9RgnunXzpQO8UaeAcCNqoDUINS2E7NSBOigqAebXy1hxTVtxpVnVLgknJgVUF6PFOPI4LXZNtlzEXiNXY0t3sEbJMOt-lFmuMTAS4KHyjnEgv1uUyNCjN6IZxdEm2a8qCLbxkcjedK4bcUtm6xFWEjymLkXk0szBVOg5c1ER8",
+    name: "Dr. N. Srinivas Rao",
+    role: "ORTHOPEDIC & JOINT REPLACEMENT SURGEON · MS (Ortho), MBBS",
+    image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=400&fit=crop&crop=face",
     social: { linkedin: "#" },
   },
   {
     id: "4",
-    name: "Dr. Srinivas Rao",
-    role: "ORTHOPEDIC SURGEON · MBBS, MS (Ortho)",
-    image:
-      "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=face",
+    name: "Dr. P. Snehitha",
+    role: "COSMETIC SPECIALIST & DERMATOLOGIST · MBBS, DDVL",
+    image: "https://images.unsplash.com/photo-1594824813573-c15ff1adcb1b?w=400&h=400&fit=crop&crop=face",
     social: { linkedin: "#" },
   },
   {
     id: "5",
-    name: "Dr. Lakshmi Prasanna",
-    role: "PEDIATRICIAN · MBBS, MD (Peds)",
-    image:
-      "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face",
+    name: "Dr. Venkata Vara Prasad",
+    role: "CONSULTANT ANESTHESIOLOGIST · MBBS, MD (Anesthesia)",
+    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=face",
     social: { linkedin: "#" },
   },
   {
     id: "6",
-    name: "Dr. Venkata Ramana",
-    role: "GENERAL PHYSICIAN · MBBS",
-    image:
-      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=400&fit=crop&crop=face",
+    name: "Dr. Anusha P.",
+    role: "RADIOLOGIST · MBBS, MD (RD)",
+    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face",
+    social: { linkedin: "#" },
+  },
+  {
+    id: "7",
+    name: "Dr. Sreerama Rao K.",
+    role: "CONSULTANT PHYSICIAN · MD (Gen Med), MBBS",
+    image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=400&fit=crop&crop=face",
+    social: { linkedin: "#" },
+  },
+  {
+    id: "8",
+    name: "Dr. B. Rajesh",
+    role: "GENERAL SURGEON · MS (Gen Surg), MBBS",
+    image: "https://images.unsplash.com/photo-1594824813573-c15ff1adcb1b?w=400&h=400&fit=crop&crop=face",
     social: { linkedin: "#" },
   },
 ];
