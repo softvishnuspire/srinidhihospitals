@@ -65,7 +65,7 @@ export const EmergencyBanner = () => {
         >
           <div className="text-accent font-bold mb-1 uppercase text-xs tracking-[0.2em]">Emergency Helpline</div>
           <div className="text-3xl md:text-4xl font-headline font-black mb-2 tracking-tight text-white">
-            08869-251678
+            08856-231166
           </div>
           <p className="text-white/50 text-xs mb-6 font-body">Available round the clock • All days</p>
           <button className="w-full bg-gradient-to-r from-accent to-tertiary text-white py-4 rounded-xl font-bold shadow-lg shadow-accent/30 transition-all hover:shadow-xl hover:shadow-accent/40 active:scale-95 flex items-center justify-center gap-2 group cursor-pointer">

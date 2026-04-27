@@ -8,7 +8,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Our Address",
-    lines: ["College Road, Opp: More Market,", "Amalapuram, East Godavari, AP - 533201"],
+    lines: ["Opp. More Super Market, College Road,", "Amalapuram - 533 201"],
     color: "accent",
     bg: "bg-accent/10",
     hoverBg: "group-hover:bg-accent",
@@ -17,7 +17,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Call Us",
-    lines: ["+91 83414-38887", "Emergency: 08869-251678"],
+    lines: ["Cell: 7207110444", "Ph: 08856 - 231166, 232166"],
     color: "primary-container",
     bg: "bg-primary-container/10",
     hoverBg: "group-hover:bg-primary-container",
