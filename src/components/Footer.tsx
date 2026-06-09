@@ -58,7 +58,7 @@ export const Footer = () => {
 
         <div className="pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-sm text-slate-500 font-body">
-            © 2024 Srinidhi Hospitals. All rights reserved.
+            © 2026 Srinidhi Hospitals. All rights reserved.
           </div>
           <div className="flex flex-wrap gap-6 justify-center text-sm font-body text-slate-500">
             <Link href="#" className="hover:text-tertiary transition-colors hover:underline">Privacy Policy</Link>
