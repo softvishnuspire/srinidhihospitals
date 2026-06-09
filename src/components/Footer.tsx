@@ -66,7 +66,7 @@ export const Footer = () => {
             <Link href="#" className="hover:text-tertiary transition-colors hover:underline">Patient Rights</Link>
           </div>
           <div className="flex items-center gap-1 text-sm text-slate-400 font-body">
-            <a href="trueupmedi.com">Made by Vishnuspire LLP</a>
+            <a href="https://www.trueupmedia.com">Made by Vishnuspire LLP</a>
           </div>
         </div>
       </div>
