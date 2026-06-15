@@ -85,56 +85,9 @@ export default function TeamShowcase({
 }: TeamShowcaseProps) {
   const [hoveredId, setHoveredId] = useState<string | null>(null);
 
-  const col1 = members.filter((_, i) => i % 3 === 0);
-  const col2 = members.filter((_, i) => i % 3 === 1);
-  const col3 = members.filter((_, i) => i % 3 === 2);
-
   return (
-    <div className="flex flex-col md:flex-row items-start gap-8 md:gap-10 lg:gap-14 select-none w-full max-w-5xl mx-auto py-8 px-4 md:px-6 font-body">
-      {/* ── Left: photo grid ── */}
-      <div className="flex gap-2 md:gap-3 flex-shrink-0 overflow-x-auto pb-1 md:pb-0">
-        {/* Column 1 */}
-        <div className="flex flex-col gap-2 md:gap-3">
-          {col1.map((member) => (
-            <PhotoCard
-              key={member.id}
-              member={member}
-              className="w-[110px] h-[120px] sm:w-[130px] sm:h-[140px] md:w-[155px] md:h-[165px]"
-              hoveredId={hoveredId}
-              onHover={setHoveredId}
-            />
-          ))}
-        </div>
-
-        {/* Column 2 */}
-        <div className="flex flex-col gap-2 md:gap-3 mt-[48px] sm:mt-[56px] md:mt-[68px]">
-          {col2.map((member) => (
-            <PhotoCard
-              key={member.id}
-              member={member}
-              className="w-[122px] h-[132px] sm:w-[145px] sm:h-[155px] md:w-[172px] md:h-[182px]"
-              hoveredId={hoveredId}
-              onHover={setHoveredId}
-            />
-          ))}
-        </div>
-
-        {/* Column 3 */}
-        <div className="flex flex-col gap-2 md:gap-3 mt-[22px] sm:mt-[26px] md:mt-[32px]">
-          {col3.map((member) => (
-            <PhotoCard
-              key={member.id}
-              member={member}
-              className="w-[115px] h-[125px] sm:w-[136px] sm:h-[146px] md:w-[162px] md:h-[172px]"
-              hoveredId={hoveredId}
-              onHover={setHoveredId}
-            />
-          ))}
-        </div>
-      </div>
-
-      {/* ── Right: member name list */}
-      <div className="flex flex-col sm:grid sm:grid-cols-2 md:flex md:flex-col gap-4 md:gap-5 pt-0 md:pt-2 flex-1 w-full">
+    <div className="select-none w-full font-body">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6">
         {members.map((member) => (
           <MemberRow
             key={member.id}
@@ -144,49 +97,6 @@ export default function TeamShowcase({
           />
         ))}
       </div>
-    </div>
-  );
-}
-
-/* ─────────────────────────────────────────
-   Photo card
-───────────────────────────────────────── */
-
-function PhotoCard({
-  member,
-  className,
-  hoveredId,
-  onHover,
-}: {
-  member: TeamMember;
-  className: string;
-  hoveredId: string | null;
-  onHover: (id: string | null) => void;
-}) {
-  const isActive = hoveredId === member.id;
-  const isDimmed = hoveredId !== null && !isActive;
-
-  return (
-    <div
-      className={cn(
-        "overflow-hidden rounded-xl cursor-pointer flex-shrink-0 transition-opacity duration-400 ring-2 ring-transparent",
-        className,
-        isDimmed ? "opacity-60" : "opacity-100",
-        isActive && "ring-primary/40 shadow-lg shadow-primary/10"
-      )}
-      onMouseEnter={() => onHover(member.id)}
-      onMouseLeave={() => onHover(null)}
-    >
-      <img
-        src={member.image}
-        alt={member.name}
-        className="w-full h-full object-cover transition-[filter] duration-500"
-        style={{
-          filter: isActive
-            ? "grayscale(0) brightness(1)"
-            : "grayscale(1) brightness(0.77)",
-        }}
-      />
     </div>
   );
 }

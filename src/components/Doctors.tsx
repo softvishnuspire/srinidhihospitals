@@ -68,47 +68,52 @@ export const Doctors = () => {
   return (
     <section className="py-24 bg-surface-container-low px-6 md:px-8" id="doctors">
       <div className="container mx-auto">
-        {/* Section header */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 gap-6">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-          >
-            <span className="inline-block text-xs font-bold text-accent tracking-[0.2em] uppercase mb-3">
-              Medical Team
-            </span>
-            <h2 className="text-4xl md:text-5xl font-headline font-extrabold text-primary tracking-tight mb-2">
-              Our Expert Team
-            </h2>
-            <div className="w-16 h-1 bg-gradient-to-r from-accent to-tertiary rounded-full mt-3" />
-            <p className="text-on-surface-variant font-body text-sm mt-4">
-              Meet the specialists dedicated to your wellbeing.
-            </p>
-          </motion.div>
-          <motion.button
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="text-primary font-bold flex items-center gap-2 hover:text-primary-container transition-colors group text-sm cursor-pointer"
-          >
-            View All Doctors{" "}
-            <ArrowRight
-              className="group-hover:translate-x-1 transition-transform"
-              size={16}
-            />
-          </motion.button>
-        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
+          {/* Left Column: Section Header */}
+          <div className="lg:col-span-4 flex flex-col justify-between h-full min-h-[220px]">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <span className="inline-block text-xs font-bold text-accent tracking-[0.2em] uppercase mb-3">
+                Medical Team
+              </span>
+              <h2 className="text-4xl md:text-5xl font-headline font-extrabold text-primary tracking-tight mb-2">
+                Our Expert Team
+              </h2>
+              <div className="w-16 h-1 bg-gradient-to-r from-accent to-tertiary rounded-full mt-3" />
+              <p className="text-on-surface-variant font-body text-sm mt-4">
+                Meet the specialists dedicated to your wellbeing.
+              </p>
+            </motion.div>
+            
+            <motion.button
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="text-primary font-bold flex items-center gap-2 hover:text-primary-container transition-colors group text-sm cursor-pointer mt-8 lg:mt-12 self-start"
+            >
+              View All Doctors{" "}
+              <ArrowRight
+                className="group-hover:translate-x-1 transition-transform"
+                size={16}
+              />
+            </motion.button>
+          </div>
 
-        {/* TeamShowcase component */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
-          <TeamShowcase members={doctors} />
-        </motion.div>
+          {/* Right Column: Name List */}
+          <div className="lg:col-span-8 w-full lg:pt-4">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <TeamShowcase members={doctors} />
+            </motion.div>
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -15,9 +15,19 @@ const facilities = [
     image: "/images/icu-and-critical-care.jpeg",
   },
   {
+    title: "CT Scan",
+    subtitle: "High-speed, detailed diagnostic scanning",
+    image: "/images/ct-scan.png",
+  },
+  {
     title: "Digital X-ray",
     subtitle: "High-resolution diagnostic imaging",
     image: "/images/digital-xray.jpeg",
+  },
+  {
+    title: "Mammography",
+    subtitle: "Early detection digital breast screening",
+    image: "/images/mammography.png",
   },
   {
     title: "Pathology Lab",
@@ -46,7 +56,7 @@ export const Facilities = () => {
           <div className="w-16 h-1 bg-gradient-to-r from-accent to-tertiary rounded-full mx-auto mt-4" />
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {facilities.map((fac, index) => (
             <motion.div
               key={fac.title}
